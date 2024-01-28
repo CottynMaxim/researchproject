@@ -5,8 +5,8 @@ import requests
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-NETBOX_URL = 'https://192.168.20.250/api/'
-NETBOX_TOKEN = 'c8a9c819f3213930b1277c724deb6eedee85835c'
+NETBOX_URL = ''
+NETBOX_TOKEN = ''
 HEADERS = {
     'Content-Type': 'application/json',
     'Authorization': f'Token {NETBOX_TOKEN}'
